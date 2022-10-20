@@ -1,0 +1,242 @@
+/**Fuentes**/
+p {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    font-family: 'Raleway', sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/**Body**/
+body {
+    background: linear-gradient(112.51deg, #264653 0%, rgba(42, 157, 143, 0.69) 100.59%);
+    background-blend-mode: lighten;
+    color: whitesmoke;
+}
+.tarjeta {
+    margin: 20px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(5, 112, 136, 0.8) 0%, #48087A 90.95%);
+    box-shadow: 10px 10px 101px 34px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 10px 10px 101px 34px rgba(0,0,0,0.51);
+    -moz-box-shadow: 10px 10px 101px 34px rgba(0,0,0,0.51);
+    border: solid yellow 2px;
+}
+
+/**Header**/
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu__nav {
+    display: inline-block;
+    font-size: 30px;
+    
+}
+.logo {
+    width: 59.17px;
+    height: 38.64px;
+    left: 101px;
+    top: 128px;
+}
+.menu__nav__lista {
+    display: inline-block;
+    padding: 15px;
+}
+button {
+    text-decoration: none;
+    text-decoration: whitesmoke;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 35px;
+    width: 110px;
+    height: 45px;
+    background: linear-gradient(98.38deg, #264653 1.82%, #2A9D8F 97.86%);
+    border: 1px solid #F5B40D;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+/**Main**/
+
+.mainpage {
+    min-height: 70vh;
+}
+
+/*Titulo*/
+
+.imagentitulo {
+    background-image: url(../img/bannerhome.png);
+    height: 649px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.imagentitulo__text {
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    font-size: 48px;
+    line-height: 120px;
+    top: 0%;
+    left: 10%;
+}
+.imagentitulo__button {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+
+/*Nuestros Records*/
+
+.record {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.boxrecord {
+    position: relative;
+    width: 100%;
+    height: 289px;
+    background: linear-gradient(91.64deg, rgba(38, 70, 83, 0.7) 0.15%, rgba(15, 102, 137, 0.7) 99.81%);
+    box-shadow: 0px 5px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.boxrecord__items {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.boxrecord__items__user {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.boxrecord__items__music {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.boxrecord__items__spotify {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*Cita*/
+
+.cita {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/citahome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1353px;
+    height: 902px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+.cita__text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 52px;
+    padding-top: 75px;
+}
+
+/**Footer**/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.background {
+    position: absolute;
+    width: 100%;
+    height: 175px;
+    background: #264653;
+    background-blend-mode: lighten;
+    mix-blend-mode: normal;
+    border: 3px solid #1288B8;
+    box-shadow: 7px -7px 25px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 0px 0px;
+}
+.footer__menu {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    list-style: none; 
+}
+.footer__menu__page {
+    padding: 5px;
+}
+.redes {
+    display: flex;
+    list-style: none;    
+}
+.redes__sociales {
+    padding-right: 15px;
+}
+
+/**Artistas**/
+
+/*Titulo*/
+
+.artistas {
+    background-image: url(../img/unsplash_OKLqGsCT8qs.png);
+    height: 310px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.artistas__text {
+    font-size: 120px;
+    padding-left: 200px;
+    padding-top: 75px;
+}
+
+/*Artistas*/
+
+.seccion__artista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px;
+}
+.seccion__artista__artista {
+    margin-top: 100px;
+    text-align: center;
+}
+.artista__img {
+    width: 251px;
+    height: 341px;
+    border-radius: 20px;
+}
+.artista__name {
+    font-size: 60px;
+}
+
+
