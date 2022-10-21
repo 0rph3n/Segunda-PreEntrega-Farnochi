@@ -22,6 +22,10 @@ a:visited {
     text-decoration: none;
     color: whitesmoke;
 }
+html {
+    min-height: 100%;
+    position: relative;
+}
 
 /**Body**/
 body {
@@ -33,6 +37,7 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    min-height: 100vh;
     border-radius: 12px 12px 0px 0px;
     background: linear-gradient(180deg, rgba(5, 112, 136, 0.8) 0%, #48087A 90.95%);
     box-shadow: 10px 10px 101px 34px rgba(0,0,0,0.51);
@@ -203,6 +208,8 @@ body {
 /**Footer**/
 
 .footer {
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
