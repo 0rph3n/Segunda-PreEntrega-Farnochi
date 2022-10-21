@@ -73,34 +73,34 @@ body {
         transform: translatex(10px);
     }
     10%{
-        transform: translatex(20px);
+        transform: translatex(15px);
     }
     20%{
-        transform: translatex(30px);
+        transform: translatex(20px);
     }
     30%{
-        transform: translatex(40px);
+        transform: translatex(25px);
     }
     40%{
-        transform: translatex(50px);
+        transform: translatex(30px);
     }
     50%{
-        transform: translatex(60px);
+        transform: translatex(35px);
     }
     60%{
-        transform: translatex(70px);
+        transform: translatex(40px);
     }
     70%{
-        transform:  translatex(80px);
+        transform:  translatex(45px);
     }
     80%{
-        transform: translatex(90px);
+        transform: translatex(50px);
     }
     90%{
-        transform: translatex(100px);
+        transform: translatex(55px);
     }
     100%{
-        transform: translate(110px)
+        transform: translate(60px)
     }
 }
 .menu__nav__lista {
