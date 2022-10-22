@@ -49,19 +49,20 @@ body {
 /**Header**/
 .menu {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    align-items: center;
-    gap: 20px;
+    grid-template-columns: 20% 60% 20%;
+    align-content: center;
     margin-top: 20px;
 }
 
 .logo {
-    grid-column: 1/2;
     display: flex;
     justify-content: space-around;
-    width: 100px;
-    height: 20px;
+    align-items: center;
     padding-right: 0px;
+}
+.logo__img {
+    width: 40px;
+    height: 20px;
 }
 .logo:hover{
     animation-name: logo;
@@ -103,41 +104,41 @@ body {
         transform: translate(60px)
     }
 }
-.menu__nav {
-    grid-column: 2/5;
+.menu-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     list-style: none;
-    margin-block: 0;
-    margin-inline: 0;
-    padding-inline-start: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-.btlogin {
-    grid-column: 5/6;
-}
 .btstyle {
     text-decoration: none;
     text-decoration: whitesmoke;
     font-weight: 600;
     font-size: 10px;
-    width: 70px;
-    height: 25px;
+    width: 50px;
+    height: 20px;
     background: linear-gradient(98.38deg, #264653 1.82%, #2A9D8F 97.86%);
     border: 1px solid #F5B40D;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     animation-duration: 1s;
-    margin-right: 10px;
 }
 .btstyle:hover{
     transform: scale(1.1);
 }
 .btstyle:active{
     transform: translate(6px, 6px);
+}
+.btlogin {
+    text-align: center;
+    text-justify: center;
+    margin: auto;
 }
 
 /**Main**/
@@ -223,7 +224,7 @@ body {
     position: absolute;
     bottom: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100px;
@@ -234,14 +235,17 @@ body {
     box-shadow: 7px -7px 25px 10px rgba(0, 0, 0, 0.25);
     border-radius: 25px 25px 0px 0px;
 }
+.logo1 {
+    width: 40px;
+    height: 20px;
+    padding-left: 0px;
+}
 .footer__menu {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    padding-right: 2px;
     font-size: 14px;
     list-style: none;
-}
-.footer__menu__page {
-    padding: 5px;
 }
 .redes {
     display: flex;
@@ -301,16 +305,23 @@ body {
     /**Tablets**/
 
 @media screen and (min-width: 768px) {
-    .menu__nav {
+    .menu-nav {
+        display: flex;
+        justify-content: space-between;
         font-size: 20px;
         font-weight: 500;
     }
-    .logo {
-        width: 50px;
+    .logo__img {
+        width: 60px;
         height: 30px;
     }
+    .btlogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .btstyle {
-        font-size: 100%;
+        font-size: 20px;
         font-weight: 500;
         width: 100px;
         height: 40px;
@@ -357,17 +368,17 @@ body {
     .tarjeta {
         margin: 50px 50px 0px 50px;
     }
-    .menu__nav {
+    .menu-nav {
         font-size: 30px;
         font-weight: 500;
     }
-    .logo {
-        width: 60px;
+    .logo__img {
+        width: 80px;
         height: 40px;
     }
     .btstyle {
-        font-size: 100%;
-        font-weight: 500;
+        font-size: 25px%;
+        font-weight: 600;
         width: 110px;
         height: 45px;
     }
