@@ -284,6 +284,25 @@ body {
 }
 
 /*Artistas*/
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;    
+}
+.card {
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+}
+.card-body{
+    width: 70px;
+}
+.card-text {
+    color: black;
+    font-weight: 600;
+    width: 70px;
+}
 
 .seccion__artista {
     display: flex;
