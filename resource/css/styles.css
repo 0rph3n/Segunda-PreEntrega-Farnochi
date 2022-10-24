@@ -271,56 +271,39 @@ body {
 
 .artistas {
     background-image: url(../img/unsplash_OKLqGsCT8qs.png);
-    height: 310px;
+    height: 100px;
     position: relative;
-    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 30px;
 }
 .artistas__text {
-    font-size: 120px;
-    padding-left: 200px;
-    padding-top: 75px;
+    position: absolute;
+    font-size: 24px;
 }
 
 /*Artistas*/
-.grid-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;    
+.row {
+    margin-bottom: 120px;
 }
 .card {
-    display: flex;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
+    height: auto;
+    margin-top: 30px;
+    background-color: #38393a;
+    border: 2px solid #F5B40D;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.card-body{
-    width: 70px;
+.card-title {
+    font-weight: 800;
 }
 .card-text {
-    color: black;
+    text-align: justify;
     font-weight: 600;
-    width: 70px;
-}
-
-.seccion__artista {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 200px;
-}
-.seccion__artista__artista {
-    margin-top: 100px;
-    text-align: center;
-}
-.artista__img {
-    width: 251px;
-    height: 341px;
-    border-radius: 20px;
-}
-.artista__name {
-    font-size: 60px;
 }
 
 /*Responsive*/
@@ -383,6 +366,17 @@ body {
     .logo1{
         width: 60px;
         height: 30px;
+    }
+    /*Artistas*/
+    .artistas {
+        height: 120px;
+        padding-left: 80px;
+    }
+    .artistas__text {
+        font-size: 32px;
+    }
+    .row {
+        margin-bottom: 150px;
     }
 
     /*Footer*/
@@ -479,6 +473,17 @@ body {
         font-weight: 600;
     }
 
+    /*Artistas*/
+    .artistas {
+        height: 200px;
+        padding-left: 200px;
+    }
+    .artistas__text {
+        font-size: 48px;
+    }
+    .row {
+        margin-bottom: 170px;
+    }
     /*Footer*/
     .footer__menu {
         display: flex;
