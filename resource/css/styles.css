@@ -313,7 +313,6 @@ body {
 @media screen and (min-width: 768px) {
     /*Body y Nav*/
     .menu-nav {
-        display: flex;
         justify-content: space-between;
         font-size: 20px;
         font-weight: 500;
@@ -342,8 +341,6 @@ body {
     .imagentitulo__text {
         font-size: 24px;
         line-height: 70px;
-    }
-    .imagentitulo__button {
     }
     .boxrecord {
         height: 150px;
@@ -421,7 +418,7 @@ body {
         height: 40px;
     }
     .btstyle {
-        font-size: 25px%;
+        font-size: 25px;
         font-weight: 600;
         width: 110px;
         height: 45px;
